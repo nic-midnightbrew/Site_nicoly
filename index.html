@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicoly Siqueira — Sites · Design · Edição de Vídeo</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Rajdhani:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Robotamily=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       HEADER FIXO
+  ══════════════════════════════════════════════ -->
+  <header id="header">
+
+    <!-- Logo -->
+    <a href="#inicio" class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Nicoly Siqueira</span>
+        <span class="logo-tagline">Design · Sites · Vídeo</span>
+      </div>
+    </a>
+
+    <!-- Navegação -->
+    <nav id="nav" role="navigation" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- CTA + toggle mobile -->
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a href="#contato" class="btn-primary">Fale comigo</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+  </header>
+
+  <!-- ══════════════════════════════════════════════
+       HERO — INÍCIO
+  ══════════════════════════════════════════════ -->
+  <section id="inicio">
+    <div class="hero-container">
+
+      <!-- Coluna esquerda: texto -->
+      <div class="hero-left">
+        <div class="hero-tag">Criatividade que conecta</div>
+
+        <h1 class="hero-title">
+          Sites <span class="dot">•</span> <span class="highlight">Design</span><br>
+          Edição de Vídeo
+        </h1>
+
+        <p class="hero-desc">
+          Crio conteúdos visuais simples e eficazes para ajudar você a se destacar nas redes sociais e conquistar mais clientes.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#servicos" class="btn-secondary">Orçamento rápido e fácil →</a>
+          <a href="#contato" class="btn-primary">Fale comigo</a>
+        </div>
+      </div>
+
+      <!-- Coluna direita: imagem -->
+      <div class="hero-right">
+        <div class="hero-image-wrap">
+          <!--
+            SUBSTITUA o bloco abaixo pela sua foto:
+            <img src="sua-foto.jpg" alt="Nicoly Siqueira no escritório" />
+          -->
+          <img src="img/hero.jpg" alt="Nicoly">
+          <div class="hero-image-placeholder">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Badge flutuante -->
+        <!-- <div class="floating-badge">
+          <div class="badge-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="badge-text">
+            <strong>+50 projetos</strong>
+            <span>entregues com qualidade</span>
+          </div>
+        </div> -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SERVIÇOS
+  ══════════════════════════════════════════════ -->
+  <div class="section-wrapper">
+    <div id="servicos" class="section-inner">
+
+      <p class="section-label">O que eu faço</p>
+      <h2 class="section-title">Serviços feitos<br>para o seu negócio</h2>
+      <p class="section-desc">Soluções visuais completas para marcas que querem crescer no digital com profissionalismo e estilo.</p>
+
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>Criação de Sites</h3>
+          <p>Desenvolvimento de sites simples e landing pages para apresentar seu negócio de forma profissional e conquistar mais clientes online.</p>
+          <a href="#portfolio" class="card-link">Ver exemplos →</a>
+        </div>
+
+        <!-- Card 1: Edição de Vídeo -->
+        
+        <!-- Card 2: Design -->
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+              <path d="M2 2l7.586 7.586"/>
+              <circle cx="11" cy="11" r="2"/>
+            </svg>
+          </div>
+          <h3>Design</h3>
+          <p>Criação de artes para Instagram, posts promocionais, stories e conteúdos visuais com um design moderno que representa a sua marca.</p>
+          <a href="#portfolio" class="card-link">Ver exemplos →</a>
+        </div>
+        
+        <!-- Card 3: Criação de Sites3 -->
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <polygon points="23 7 16 12 23 17 23 7"/>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <h3>Edição de Vídeo</h3>
+          <p>Edição de reels, vídeos para redes sociais, vídeos de aniversário e conteúdos simples que chamam atenção e geram engajamento.</p>
+          <a href="#portfolio" class="card-link">Ver exemplos →</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       PORTFÓLIO
+  ══════════════════════════════════════════════ -->
+  <div class="section-wrapper alt">
+    <div id="portfolio" class="section-inner">
+
+      <!-- Cabeçalho -->
+      <div class="portfolio-header">
+        <div>
+          <p class="section-label">Trabalhos recentes</p>
+          <h2 class="section-title">Portfólio</h2>
+          <p class="section-desc">Uma seleção dos projetos que já desenvolvi — design, vídeo e programação.</p>
+        </div>
+      </div>
+
+      <!-- Mini menu de filtro -->
+      <div class="portfolio-filter" role="tablist" aria-label="Filtrar portfólio">
+        <button class="filter-btn active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+        <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Designer</button>
+        <button class="filter-btn" data-filter="video" role="tab" aria-selected="false">Video Maker</button>
+        <button class="filter-btn" data-filter="programacao" role="tab" aria-selected="false">Programação</button>
+      </div>
+
+      <!-- Grid de projetos -->
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- Projeto 1 — Design -->
+        <div class="portfolio-item" data-category="design">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/1a1a2e/7c5cfc?text=Design+UI" alt="Projeto de design UI" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Design</span>
+              <h4>UI para aplicativo mobile</h4>
+              
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat design">Design</span>
+            <p>The services provide for design</p>
+          </div>
+        </div>
+
+        <!-- Projeto 2 — Design -->
+        <div class="portfolio-item" data-category="design">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/16213e/5b8af6?text=Landing+Page" alt="Mobile app landing page" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Design</span>
+              <h4>Mobile app landing page design</h4>
+              
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat design">Design</span>
+            <p>Mobile app landing page design & app marketing</p>
+          </div>
+        </div>
+
+        <!-- Projeto 3 — Design -->
+        <div class="portfolio-item" data-category="design">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/0f3460/e94560?text=Logo+Design" alt="Logo design" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Design</span>
+              <h4>Logo design creativity & application</h4>
+              
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat design">Design</span>
+            <p>Logo design creativity & Application</p>
+          </div>
+        </div>
+
+        <!-- Projeto 4 — Vídeo -->
+        <div class="portfolio-item" data-category="video">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/1a0533/c084fc?text=Video+Maker" alt="Video making projeto" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Vídeo</span>
+              <h4>Mobile app landing design & services</h4>
+              
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat video">Vídeo</span>
+            <p>Mobile app landing design & Services</p>
+          </div>
+        </div>
+
+        <!-- Projeto 5 — Design -->
+        <div class="portfolio-item" data-category="design">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/0d1b2a/38bdf8?text=App+Design" alt="Design para aplicativo" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Design</span>
+              <h4>Design for technology & services</h4>
+              
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat design">Design</span>
+            <p>Design for technology & services</p>
+          </div>
+        </div>
+
+        <!-- Projeto 6 — Programação -->
+        <div class="portfolio-item" data-category="programacao">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/0a1628/34d399?text=App+Dev" alt="Desenvolvimento de aplicativo" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Programação</span>
+              <h4>App for technology & services</h4>
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat programacao">Programação</span>
+            <p>App for technology & web use</p>
+          </div>
+        </div>
+
+        <!-- Projeto 7 — Vídeo -->
+        <div class="portfolio-item" data-category="video">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/1c0a1a/f472b6?text=Reel+Edit" alt="Edição de reels" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Vídeo</span>
+              <h4>Edição de reels para Instagram</h4>
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat video">Vídeo</span>
+            <p>Edição de reels e conteúdo para redes sociais</p>
+          </div>
+        </div>
+
+        <!-- Projeto 8 — Programação -->
+        <div class="portfolio-item" data-category="programacao">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/0c1a0c/4ade80?text=Landing+Page" alt="Landing page desenvolvida" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Programação</span>
+              <h4>Landing page para negócio local</h4>
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat programacao">Programação</span>
+            <p>Desenvolvimento de landing page profissional</p>
+          </div>
+        </div>
+
+        <!-- Projeto 9 — Vídeo -->
+        <div class="portfolio-item" data-category="video">
+          <div class="portfolio-thumb">
+            <img src="https://placehold.co/600x420/1a1000/fbbf24?text=Motion" alt="Motion graphics" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Vídeo</span>
+              <h4>Motion graphics para marca</h4>
+            </div>
+          </div>
+          <div class="portfolio-meta">
+            <span class="portfolio-cat video">Vídeo</span>
+            <p>Motion graphics e animação para redes sociais</p>
+          </div>
+        </div>
+
+      </div><!-- /portfolio-grid -->
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       SOBRE
+  ══════════════════════════════════════════════ -->
+  <div class="section-wrapper">
+    <div id="sobre" class="section-inner">
+      <div class="placeholder-section">
+        <p class="section-label">Quem sou eu</p>
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-desc">Seção de apresentação pessoal — conte sua história, experiência e o que te diferencia. Personalize com sua foto e texto aqui.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       CONTATO
+  ══════════════════════════════════════════════ -->
+  <div class="section-wrapper dark">
+    <div id="contato" class="section-inner">
+      <div class="placeholder-section">
+        <p class="section-label">Vamos conversar</p>
+        <h2 class="section-title">Pronto para começar?</h2>
+        <p class="section-desc">Me manda uma mensagem e te respondo rapidinho com um orçamento sem compromisso.</p>
+        <!--
+          Troque o número abaixo pelo seu WhatsApp:
+          https://wa.me/55DDDNÚMERO
+        -->
+        <a href="https://wa.me/5551983147379" target="_blank" rel="noopener" class="btn-primary" style="font-size:15px;padding:14px 32px;">
+          💬 Fale comigo no WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer>
+    <p>© 2026 <span>Nicoly Siqueira</span>. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+</html>
